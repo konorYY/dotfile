@@ -1,0 +1,20 @@
+window#osd {
+	background: transparent;
+	border-radius: 5px;
+	min-height: 20px;
+}
+
+window#osd progress {
+	background: #8fc3e8;
+}
+
+window#osd image{
+	color: #8fc3e8;
+}
+
+
+window#osd progressbar {
+    border: 3px solid #202231;
+    border-radius: 999px;
+    padding: 1px;
+}

@@ -1,0 +1,39 @@
+#waybar{
+	/*background-color: transparent;*/
+	color: #1d1f2c;
+	font-weight: bold;
+	background: rgba(155, 5, 255, 0.1);
+	border-radius: 18px;
+	min-height: 0;
+}
+
+/* Stile generale di tutti i workspace */
+#workspaces button {
+    padding: 0 8px;
+    color: #1d1f2c;                 /* Testo bianco per i workspace inattivi */
+    background-color: transparent;
+    border-radius: 8px; 
+    font-weight: normal;
+}
+
+/* Il workspace attualmente visibile/attivo */
+#workspaces button.active {
+    background-color: transparent;       /* Color Mango */
+    color: #1d1f2c;                 /* Il tuo font scuro per massimo contrasto */
+    border-bottom: none;  
+    font-weight: bold;
+}
+
+#temperature{
+	padding-right: 10px;
+	padding-left:10px
+}
+#memory{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#battery{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+

@@ -1,0 +1,1 @@
+/home/leo/.local/share/omf/themes/damin/fish_prompt.fish

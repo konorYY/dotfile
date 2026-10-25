@@ -1,0 +1,5 @@
+[server]
+style = "/home/leo/.config/swayosd/style.css"
+top_margin = 0.99
+max_volume = 100
+show_percentage = false
